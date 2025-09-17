@@ -1,8 +1,8 @@
 import { use } from "react";
 
-export default function Post({postsPromise}){
-console.log(postsPromise)
-    const post = use(postsPromise);
+export default function Post({postsPormise}){
+console.log(postsPormise)
+    const post = use(postsPormise);
     console.log(post)
 
     return(

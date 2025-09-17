@@ -15,9 +15,7 @@ const fetchPosts = async() => {
 }
 
 function App() {
-
 const postsPormise = fetchPosts();
-
 function handleClick(){
   alert('I am clicked')
 }
